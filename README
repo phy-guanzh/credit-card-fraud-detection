@@ -6,3 +6,27 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 main datasets:
 https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022
+
+
+update1103:
+
+#Scale sample with two methods
+benefits:
+*Improved Convergence in Gradient-Based Models
+*Better Performance in Distance-Based Algorithms
+*Uniformity Across Features
+
+#apply and test dimensionality reduction PCA and t-SNE methods 
+
+PCA: A linear method which finds the orthogonal axes (principal components) that capture the most variance in the data.
+
+t-SNE: A non-linear method which models pairwise similarities of data points with a probability distribution, preserving small-scale (local) structure rather than large-scale (global) structure.
+
+# select balanced sample to train models
+
+models includes: logistic regression, k-nearest neighbours, Random forest, Decision Tree and Naive Bayes.
+
+# cross-validation added, 
+
+# learning curves added
+
